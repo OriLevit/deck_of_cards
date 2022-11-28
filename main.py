@@ -1,4 +1,3 @@
-import Deck
-
-deck = Deck
-print("HET")
+from Deck import Deck
+deck = Deck()
+deck.print_deck()
